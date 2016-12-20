@@ -1,0 +1,9 @@
+# db.properties
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://127.0.0.1:3306/netctoss
+jdbc.username=youjin
+jdbc.password=940707you
+
+#paramter for BasicDataSource
+initSize=10
+maxActive=200
