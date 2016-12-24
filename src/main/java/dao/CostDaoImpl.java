@@ -60,8 +60,8 @@ public class CostDaoImpl implements CostDao {
 		try {
 			conn = DbUtils.getConnection();
 		
-			String sql = "insert into cost(name,base_duration,base_cost,unit_cost,status,descr,creatime,startime,cost_type) values("
-				+ "?,?,?,?,1,?,sysdate,null,?)";
+			String sql = "insert into cost(name,base_duration,base_cost,unit_cost,status,descr,startime,cost_type) values("
+				+ "?,?,?,?,1,?,null,?)";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, c.getName());
 			ps.setObject(2, c.getBaseDuration());

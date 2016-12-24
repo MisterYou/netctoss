@@ -60,7 +60,7 @@
                         <input type="button" value="基费" class="sort_asc" onclick="sort(this);" />
                         <input type="button" value="时长" class="sort_asc" onclick="sort(this);" />-->
                     </div>
-                    <input type="button" value="增加" class="btn_add" onclick="location.href='toaddCost.do';" />
+                    <input type="button" value="增加" class="btn_add" onclick="location.href='toAddCost.do';" />
                 </div> 
                 <!--启用操作的操作提示-->
                 <div id="operate_result_info" class="operate_success">
